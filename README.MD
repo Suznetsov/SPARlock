@@ -1,12 +1,12 @@
 <h1>SPARlock</h1>
 <p>Install:
 First, you need to install the Python programming language. It is included by default in most Debian GNU/Linux distributions, such as Ubuntu or Kali Linux. If you do not have the language pre-installed, download it from python.org.
-Next, Install the ZIP into your home directory, and unzip it. Then run this command that preinstalls all of the requirements for this project.
+Next, Install the ZIP into your home directory, and unzip it. Then run this command that preinstalls all of the requirements for this project. Go into SPARlock, and then SPARlock-main, and run this command to install the requirements.
 <code>pip3 install -r requirements.txt</code>
 </p>
 
 <h2>Usage</h2>
-If you are using Linux, do <code>python sparlock.py [NAME]</code>
+If you are using Linux, do <code>python sparlock.py [NAME]</code>. Make sure you go into SPARlock/SPARlock-main beforehand.
 <h3>Windows</h3>
 Create a file named <code>sparlock.bat</code> at your home directory (the path C:\Users\[YOURNAMEHERE]\sparlock.bat), and should contain this following script:
 <code>

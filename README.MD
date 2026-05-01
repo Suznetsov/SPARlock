@@ -10,11 +10,11 @@ If you are using Linux, do <code>python sparlock.py [NAME]</code>
 <h3>Windows</h3>
 Create a file named <code>sparlock.bat</code> at your home directory (the path C:\Users\[YOURNAMEHERE]\sparlock.bat), and should contain this following script:
 <code>
-@py.exe %USERPROFILE%\SPARlock\sparlock.py %*
+@py.exe %USERPROFILE%\SPARlock\SPARlock-main\sparlock.py %*
 @pause
 </code>
 <h3>MacOS</h3>
 Create a file named <code>sparlock.command</code> at your home directory (/Users/[YOURNAMEHERE]) which contains this code:
 <code>
 #!/usr/bin/env bash
-python3 ~/SPARlock/sparlock.py
+python3 ~/SPARlock/SPARlock-main/sparlock.py

@@ -145,24 +145,23 @@ class QueryNotifyPrint(QueryNotify):
         return
 
     def splash(self):
-        splash = f"                       *                             o   {Fore.WHITE}.                        {Fore.LIGHTYELLOW_EX}.-.{Fore.WHITE}                                       .\n"
-        splash += f"                 {Fore.LIGHTWHITE_EX}+#######+{Fore.WHITE}   .      {Fore.LIGHTWHITE_EX}+  *{Fore.WHITE}                           '       '  ~~{Fore.LIGHTWHITE_EX}+  {Fore.LIGHTYELLOW_EX}) ){Fore.WHITE}      '             .                  \n"
-        splash += f"      .       {Fore.LIGHTWHITE_EX}+####-----####+{Fore.WHITE}                               .                     {Fore.LIGHTYELLOW_EX}'-´{Fore.WHITE}        .           {Fore.LIGHTWHITE_EX}+{Fore.WHITE}~~                 \n"
-        splash += f"         {Fore.LIGHTWHITE_EX}*{Fore.WHITE}   {Fore.LIGHTWHITE_EX}###      {Fore.WHITE}'{Fore.LIGHTWHITE_EX}    ###{Fore.WHITE}         {Fore.LIGHTWHITE_EX}+{Fore.WHITE}                            .  '{Fore.LIGHTWHITE_EX}*{Fore.WHITE}                {Fore.LIGHTYELLOW_EX}':.{Fore.WHITE}      .                          \n"
-        splash += f"      '     {Fore.LIGHTWHITE_EX}##+             +##{Fore.WHITE}                                                            {Fore.LIGHTYELLOW_EX}'::{Fore.LIGHTRED_EX}._{Fore.WHITE}                            '\n"
-        splash += f"           {Fore.LIGHTWHITE_EX}+##               ##+{Fore.WHITE} .                                    {Fore.LIGHTWHITE_EX}*{Fore.WHITE}                      {Fore.LIGHTRED_EX}'{Fore.RED}._){Fore.WHITE}                            \n"
-        splash += f"    {Fore.LIGHTWHITE_EX}*{Fore.WHITE}'     {Fore.LIGHTWHITE_EX}###               ###{Fore.WHITE}                                                                       .       .             \n"
-        splash += f"           {Fore.LIGHTWHITE_EX}+##     {Fore.WHITE}.{Fore.LIGHTWHITE_EX}         ##+{Fore.WHITE}                  *{Fore.LIGHTWHITE_EX}+{Fore.WHITE}         |                                                               \n"
-        splash += f"            {Fore.LIGHTWHITE_EX}###             ###{Fore.WHITE}   {Fore.LIGHTWHITE_EX}o{Fore.WHITE}.                        -{Fore.LIGHTWHITE_EX}o{Fore.WHITE}-                                          .               {Fore.LIGHTWHITE_EX}o{Fore.WHITE}   \n"
-        splash += f"  {Fore.LIGHTWHITE_EX}+{Fore.WHITE}          {Fore.LIGHTWHITE_EX}###-         -###{Fore.WHITE}         '                     |                 '                                             \n"
-        splash += f"              {Fore.LIGHTWHITE_EX}-####+---+####+{Fore.WHITE}          {Fore.LIGHTWHITE_EX}o +{Fore.WHITE}                                    .        {Fore.LIGHTWHITE_EX}(version {__version__} beta) by system_call{Fore.WHITE}\n"
-        splash += f"          {Fore.LIGHTWHITE_EX}+##+   -#######-                 {Fore.LIGHTBLACK_EX}      ::::::::   ::::::::  :::   ::: :::        ::::::::   ::::::::  :::    :::{Fore.WHITE}   \n"
-        splash += f"        {Fore.LIGHTWHITE_EX}+###-                              {Fore.LIGHTBLACK_EX}    :+:    :+: :+:    :+: :+:   :+: :+:       :+:    :+: :+:    :+: :+:   :+:{Fore.WHITE}     \n"
-        splash += f"   .  {Fore.LIGHTWHITE_EX}+###+ o{Fore.WHITE}   .            |         {Fore.WHITE}       +:+        +:+    +:+  +:+ +:+  +:+       +:+    +:+ +:+        +:+  +:+       \n"
-        splash += f"    {Fore.LIGHTWHITE_EX}+####{Fore.WHITE} .                 -{Fore.LIGHTWHITE_EX}o{Fore.WHITE}-        {Fore.WHITE}      +#++:++#++ +#+    +:+   +#++:   +#+       +#+    +:+ +#+        +#++:++         \n"
-        splash += f"  {Fore.LIGHTWHITE_EX}#####                      |             {Fore.LIGHTWHITE_EX}        +#+ +#+    +#+    +#+    +#+       +#+    +#+ +#+        +#+  +#+         \n"
-        splash += f"{Fore.LIGHTWHITE_EX}+####-{Fore.WHITE}        '                {Fore.LIGHTWHITE_EX}            #+#    #+# #+#    #+#    #+#    #+#       #+#    #+# #+#    #+# #+#   #+#       {Fore.WHITE}.{Fore.LIGHTWHITE_EX}+\n"
-        splash += f"{Fore.LIGHTWHITE_EX}###+                                       {Fore.LIGHTWHITE_EX}########   ########     ###    ########## ########   ########  ###    ###         \n"
+        splash = f"   SSSSSSSSSSSSSSSPPPPPPPPPPPPPPPPP       AAA              RRRRRRRRRRRRRRRRR  lllllll                                   kkkkkkkk           "
+        splash += f" SS:::::::::::::::P::::::::::::::::P     A:::A             R::::::::::::::::R l:::::l                                   k::::::k           "
+        splash += f"S:::::SSSSSS::::::P::::::PPPPPP:::::P   A:::::A            R::::::RRRRRR:::::Rl:::::l                                   k::::::k           "
+        splash += f"S:::::S     SSSSSSPP:::::P     P:::::P A:::::::A           RR:::::R     R:::::l:::::l                                   k::::::k           "
+        splash += f"S:::::S             P::::P     P:::::PA:::::::::A            R::::R     R:::::Rl::::l   ooooooooooo      cccccccccccccccck:::::k    kkkkkkk"
+        splash += f"S:::::S             P::::P     P:::::A:::::A:::::A           R::::R     R:::::Rl::::l oo:::::::::::oo  cc:::::::::::::::ck:::::k   k:::::k "
+        splash += f" S::::SSSS          P::::PPPPPP:::::A:::::A A:::::A          R::::RRRRRR:::::R l::::lo:::::::::::::::oc:::::::::::::::::ck:::::k  k:::::k  "
+        splash += f"  SS::::::SSSSS     P:::::::::::::PA:::::A   A:::::A         R:::::::::::::RR  l::::lo:::::ooooo:::::c:::::::cccccc:::::ck:::::k k:::::k   "
+        splash += f"    SSS::::::::SS   P::::PPPPPPPPPA:::::A     A:::::A        R::::RRRRRR:::::R l::::lo::::o     o::::c::::::c     ccccccck::::::k:::::k    "
+        splash += f"       SSSSSS::::S  P::::P       A:::::AAAAAAAAA:::::A       R::::R     R:::::Rl::::lo::::o     o::::c:::::c             k:::::::::::k     "
+        splash += f"            S:::::S P::::P      A:::::::::::::::::::::A      R::::R     R:::::Rl::::lo::::o     o::::c:::::c             k:::::::::::k     "
+        splash += f"            S:::::S P::::P     A:::::AAAAAAAAAAAAA:::::A     R::::R     R:::::Rl::::lo::::o     o::::c::::::c     ccccccck::::::k:::::k    "
+        splash += f"SSSSSSS     S:::::PP::::::PP  A:::::A             A:::::A  RR:::::R     R:::::l::::::o:::::ooooo:::::c:::::::cccccc:::::k::::::k k:::::k   "
+        splash += f"S::::::SSSSSS:::::P::::::::P A:::::A               A:::::A R::::::R     R:::::l::::::o:::::::::::::::oc:::::::::::::::::k::::::k  k:::::k  "
+        splash += f"S:::::::::::::::SSP::::::::PA:::::A                 A:::::AR::::::R     R:::::l::::::loo:::::::::::oo  cc:::::::::::::::k::::::k   k:::::k "
+        splash += f" SSSSSSSSSSSSSSS  PPPPPPPPPAAAAAAA                   AAAAAARRRRRRRR     RRRRRRllllllll  ooooooooooo      ccccccccccccccckkkkkkkk    kkkkkkk"
+print(splash)
 
         print(splash)
 

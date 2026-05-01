@@ -161,7 +161,6 @@ class QueryNotifyPrint(QueryNotify):
         splash += f"S::::::SSSSSS:::::P::::::::P A:::::A               A:::::A R::::::R     R:::::l::::::o:::::::::::::::oc:::::::::::::::::k::::::k  k:::::k  "
         splash += f"S:::::::::::::::SSP::::::::PA:::::A                 A:::::AR::::::R     R:::::l::::::loo:::::::::::oo  cc:::::::::::::::k::::::k   k:::::k "
         splash += f" SSSSSSSSSSSSSSS  PPPPPPPPPAAAAAAA                   AAAAAARRRRRRRR     RRRRRRllllllll  ooooooooooo      ccccccccccccccckkkkkkkk    kkkkkkk"
-print(splash)
 
         print(splash)
 
